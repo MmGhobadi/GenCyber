@@ -28,8 +28,9 @@ var score = 0;
 $(function () {
   // Remove Element after click
   $(".gridbtn").on("click", function () {
-    $(this).addClass("disabled");
-    $(this).remove();
+    window.currentObject = this
+    // $(this).addClass("disabled");
+    // $(this).remove();
   });
 });
 
@@ -40,6 +41,9 @@ $("#closesubmit").on("click", function () {
 
 // Submit Question Answer
 function submit(a, b) {
+  console.log(window.currentObject)
+  $(window.currentObject).addClass("disabled");
+  $(window.currentObject).remove();
   var selected = $(".modal-body input:checked").val();
   // Determine if correct answer was chosen and alert prize
   if (selected === questions[window.currentQuestion].correctAnswer) {
