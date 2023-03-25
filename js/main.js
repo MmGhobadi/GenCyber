@@ -47,7 +47,7 @@ function submit(a, b) {
     chaching.play();
     window.addprize = questions[window.currentQuestion].cashPrize;
     score = score + window.addprize;
-    $('#score1').html("  $" + score);
+    $('#score1').html(" " + score);
     if (!Math.sign(score)) {
       $('#score1').addClass("negative");
     } else {
@@ -58,9 +58,9 @@ function submit(a, b) {
   if (selected !== questions[window.currentQuestion].correctAnswer) {
     buzzer.play();
     window.subprize = questions[window.currentQuestion].cashPrize;
-    score = score - window.subprize;
+    score = score - 0;
     console.log(score);
-    $('#score1').html("  $" + score);
+    $('#score1').html(" " + score);
     if (Math.sign(score)) {
       $('#score1').addClass("negative");
     } else {
