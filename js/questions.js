@@ -1,64 +1,91 @@
 const questions = [
   /* Category 1 Questions */
   {
-    prompt: 'What is a tool in Cloud Security?',
-    options: ['Malwarebytes', 'Direct TV', 'Cloudflare', 'WiFi'],
-    correctAnswer: 'Cloudflare',
+    prompt: 'What is the definition of cybersecurity?',
+    options: ['The practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks',
+     'The practice of hacking into computers, servers, mobile devices, electronic systems, networks, and data to gain unauthorized access', 
+     'The practice of encrypting all data to ensure it is secure',
+     'The practice of monitoring all digital activity to prevent cyber threats'],
+    correctAnswer: 'The practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks',
     cashPrize: 10
   },
   {
-    prompt: 'What is a tool in Application Security?',
-    options: ['Sentinel One', 'Verizon', 'Honey Pot', 'Firewalls'],
-    correctAnswer: 'Sentinel One',
+    prompt: 'Which of the following is NOT a type of cyber threat?',
+    options: ['Malware', 'Phishing', 'DDoS attacks', 'Social engineering'],
+    correctAnswer: 'Social engineering',
     cashPrize: 50
   },
   {
-    prompt: 'What is an important element to Network Security?',
-    options: ['Installing Games', 'Network Segmentation', 'Operating WebCams', 'Running AntiVirus on PC'],
-    correctAnswer: 'Network Segmentation',
+    prompt: 'What is the purpose of a firewall?',
+    options: ['To prevent unauthorized access to a network',
+     'To encrypt all data on a network',
+      'To monitor all digital activity on a network',
+      'To increase the speed of a network'],
+    correctAnswer: 'To prevent unauthorized access to a network',
     cashPrize: 100
   },
   {
-    prompt: 'Which is an example of an Internet of Things (IoT) device?',
-    options: ['Firewall', 'Regular TV', 'WiFi Router', 'Amazon Alexa'],
-    correctAnswer: 'Amazon Alexa',
+    prompt: 'What is a vulnerability assessment?',
+    options: ['A scan of a system or network to identify security weaknesses',
+     'A type of malware that encrypts a user\'s files until a ransom is paid',
+      'A type of DDoS attack that uses many different devices to overwhelm a network',
+       'A type of social engineering attack that targets high-level executives'],
+    correctAnswer: 'A scan of a system or network to identify security weaknesses',
     cashPrize: 500
   },
   {
-    prompt: 'What is an important component to protect in Critical Infrastructure Security?',
-    options: ['WiFi Router', 'Users PC', 'Server with Root CAs', 'Headphones'],
+    prompt: 'What is two-factor authentication?',
+    options: ['A security system that requires two different passwords to access a network',
+     'A security system that uses biometric data to authenticate users',
+      'A security system that requires a password and a security token to access a network',
+       'A security system that uses CAPTCHAs to verify users'],
     correctAnswer: 'Server with Root CAs',
     cashPrize: 1000
   },
   /* Category 2 Questions */
   {
-    prompt: 'What is a buffer overflow?',
-    options: ['data exceeding storage capacity of deep storage', 'data exceeding storage capacity of memory buffer', 'data added to storage capacity of memory buffer', 'data within storage capacity of memory buffer'],
-    correctAnswer: 'data exceeding storage capacity of memory buffer',
+    prompt: 'What is a penetration test?',
+    options: ['A test to see how well a system or network can withstand an attack',
+     'A test to see how fast a system or network can process data',
+      'A test to see how much data a system or network can store',
+       'A test to see how many users can access a system or network at once'],
+    correctAnswer: 'A test to see how well a system or network can withstand an attack',
     cashPrize: 10
   },
   {
-    prompt: 'What is an SQL Injection?',
-    options: ['SQL Injection is performing SQL statements', 'SQL Injection is the placement of positive code in SQL statements', 'SQL Injection is the placement of malicious code in SQL statements', 'SQL Injection is the Injecting of SQL'],
-    correctAnswer: 'SQL Injection is the placement of malicious code in SQL statements',
+    prompt: 'What is encryption?',
+    options: ['The process of changing plain text into code to keep it secure',
+     'The process of breaking a code to gain access to data',
+      'The process of monitoring all digital activity on a network',
+       'The process of identifying security weaknesses in a system or network'],
+    correctAnswer: 'The process of changing plain text into code to keep it secure',
     cashPrize: 50
   },
   {
-    prompt: 'What is Cross Site Scripting (XSS)?',
-    options: ['Injection of malicous executable scripts into code of an application/website', 'Injection of malicous executable scripts at a users PC', 'Injection of positive executable scripts into code of an application/website', 'Executable scripts in a fridge'],
-    correctAnswer: 'Injection of malicous executable scripts into code of an application/website',
+    prompt: 'What is the purpose of a virtual private network (VPN)?',
+    options: ['To encrypt all data on a network',
+     'To prevent unauthorized access to a network',
+      'To monitor all digital activity on a network',
+       'To create a secure connection between a user and a network'],
+    correctAnswer: 'To create a secure connection between a user and a network',
     cashPrize: 100
   },
   {
-    prompt: 'What is Reflected Cross Site Scripting (XSS)?',
-    options: ['Positive script that is reflected off of a web application to the victims browser', 'Malicious script that is injected into a web application in the victims browser', 'The sun reflected off of a web application to the victims browser', 'Malicious script that is reflected off of a web application to the victims browser'],
-    correctAnswer: 'Malicious script that is reflected off of a web application to the victims browser',
+    prompt: 'What is a honeypot?',
+    options: ['A type of malware that infects a system or network',
+     'A security tool used to detect and deflect attacks',
+      'A type of DDoS attack that uses many different devices to overwhelm a network',
+     'A type of social engineering attack that targets high-level executives'],
+    correctAnswer: 'A security tool used to detect and deflect attacks',
     cashPrize: 500
   },
   {
-    prompt: 'What is a file upload vulnerability',
-    options: ['Users uploading animal pictures to a filesystem', 'Web server that allows users to upload files without sufficiently validating them', 'Web server that allows users to upload files with validation', 'Web server that allows users to download verified files'],
-    correctAnswer: 'Web server that allows users to upload files without sufficiently validating them',
+    prompt: 'What is a security policy?',
+    options: ['A set of rules and procedures designed to keep a system or network secure',
+     'A set of guidelines for users to follow when using a system or network',
+      'A type of malware that encrypts a user\'s files until a ransom is paid',
+      'A type of DDoS attack that uses many different devices to overwhelm a network'],
+    correctAnswer: 'A set of rules and procedures designed to keep a system or network secure',
     cashPrize: 1000
   },
   /* Category 3 Questions */

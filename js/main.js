@@ -62,7 +62,12 @@ function submit(a, b) {
   if (selected !== questions[window.currentQuestion].correctAnswer) {
     buzzer.play();
     window.subprize = questions[window.currentQuestion].cashPrize;
-    score = score - 0;
+    if((score - window.subprize) < 0){
+      score = 0;
+    }else{
+      score = score - window.subprize;
+    }
+    
     console.log(score);
     $('#score1').html(" " + score);
     if (Math.sign(score)) {
