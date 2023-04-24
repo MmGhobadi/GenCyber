@@ -1,41 +1,47 @@
 const questions = [
   /* Category 1 Questions */
   {
-    prompt: 'Question 1: What is a strong password?',
-    options: ['a. A password that is easy to remember',
-     'b. A password that contains both uppercase and lowercase letters, numbers, and special characters', 
-     'c. A password that is written down on a piece of paper',
-     'd. A password that is the same as your username'],
-    correctAnswer: 'b. A password that contains both uppercase and lowercase letters, numbers, and special characters',
+    prompt: 'What is the definition of cybersecurity?',
+    options: ['The practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks',
+     'The practice of hacking into computers, servers, mobile devices, electronic systems, networks, and data to gain unauthorized access', 
+     'The practice of encrypting all data to ensure it is secure',
+     'The practice of monitoring all digital activity to prevent cyber threats'],
+    correctAnswer: 'The practice of protecting computers, servers, mobile devices, electronic systems, networks, and data from digital attacks',
     cashPrize: 10
   },
   {
-    prompt: 'Question 2: What is two-factor authentication?',
-    options: ['a. A security mechanism that requires two different passwords to access an account', 'b. A security mechanism that requires a password and a fingerprint to access an account', 'c. A security mechanism that requires two different methods of authentication to access an account', 'd. A security mechanism that requires a password and a secret question to access an account'],
-    correctAnswer: 'c. A security mechanism that requires two different methods of authentication to access an account',
+    prompt: 'Which of the following is NOT a type of cyber threat?',
+    options: ['Malware', 'Phishing', 'DDoS attacks', 'Social engineering'],
+    correctAnswer: 'Social engineering',
     cashPrize: 50
-    },
-    
-    {
-    prompt: 'Question 3: What is social engineering?',
-    options: ['a. The process of manipulating people to gain confidential information or access to systems', 'b. The process of hacking into a computer system using software tools', 'c. The process of encrypting sensitive data', 'd. The process of securing computer networks'],
-    correctAnswer: 'a. The process of manipulating people to gain confidential information or access to systems',
+  },
+  {
+    prompt: 'What is the purpose of a firewall?',
+    options: ['To prevent unauthorized access to a network',
+     'To encrypt all data on a network',
+      'To monitor all digital activity on a network',
+      'To increase the speed of a network'],
+    correctAnswer: 'To prevent unauthorized access to a network',
     cashPrize: 100
-    },
-    
-    {
-    prompt: 'Question 4: What is a firewall?',
-    options: ['a. A device that encrypts data to protect it from unauthorized access', 'b. A device that filters network traffic to block unauthorized access and attacks', 'c. A device that stores and manages cryptographic keys', 'd. A device that scans for and removes malware from network traffic'],
-    correctAnswer: 'b. A device that filters network traffic to block unauthorized access and attacks',
+  },
+  {
+    prompt: 'What is a vulnerability assessment?',
+    options: ['A scan of a system or network to identify security weaknesses',
+     'A type of malware that encrypts a user\'s files until a ransom is paid',
+      'A type of DDoS attack that uses many different devices to overwhelm a network',
+       'A type of social engineering attack that targets high-level executives'],
+    correctAnswer: 'A scan of a system or network to identify security weaknesses',
     cashPrize: 500
-    },
-    
-    {
-    prompt: 'Question 5: What is cyber warfare?',
-    options: ['a. The use of computers and networks to conduct military operations', 'b. The use of cyberattacks to disrupt critical infrastructure or damage computer systems', 'c. The use of software tools to detect and respond to cyberattacks', 'd. The use of artificial intelligence to identify and mitigate cyber threats'],
-    correctAnswer: 'b. The use of cyberattacks to disrupt critical infrastructure or damage computer systems',
+  },
+  {
+    prompt: 'What is two-factor authentication?',
+    options: ['A security system that requires two different passwords to access a network',
+     'A security system that uses biometric data to authenticate users',
+      'A security system that requires a password and a security token to access a network',
+       'A security system that uses CAPTCHAs to verify users'],
+    correctAnswer: 'Server with Root CAs',
     cashPrize: 1000
-    },
+  },
   /* Category 2 Questions */
   {
     prompt: 'What is a penetration test?',
