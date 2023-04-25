@@ -1,4 +1,4 @@
-import questions from './cybersecurity_concepts_questions.js';
+import questions from './questions.js';
 
 
 // Buzzer & Chaching sounds
